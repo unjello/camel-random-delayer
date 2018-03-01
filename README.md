@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/unjello/camel-random-delayer.svg?branch=master)](https://travis-ci.org/unjello/camel-random-delayer)
+
 # camel-random-delayer
 
 Little helper class for generating delays, used by Camel routes in ActiveMQ.
