@@ -23,7 +23,7 @@ Then, use it in your camel routes, like this:
         <description>Auto-Reply</description>
         <from uri="broker:queue:REQUEST"/>
         <delay>
-            <method ref="RandomDelay" method="getPoisson(24, 60000)"/>
+            <method ref="RandomDelay" method="getPoisson(60000)"/>
         </delay>
         <to uri="broker:queue:RESPONSE"/>
     </route>

@@ -10,8 +10,7 @@ public class RandomDelayer {
         return (long)(random * max);
     }
 
-    public int getPoisson(double lambda, int max) {
-        int poisson = Poisson.staticNextInt(lambda);
-        return poisson == 0 ? max : max / poisson ;
+    public int getPoisson(double lambda) {
+        return Poisson.staticNextInt(lambda);
     }
 }
