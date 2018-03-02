@@ -16,3 +16,8 @@ local.properties
 build/
 bin/
 runtime/
+
+# Eclipse files
+.classpath
+.project
+.settings/
